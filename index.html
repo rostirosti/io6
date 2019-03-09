@@ -31,7 +31,7 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item">
+ <!--        <li class="nav-item">
             <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
@@ -39,7 +39,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
-          </li>
+          </li> --> 
         </ul>
       </div>
     </div>
@@ -49,25 +49,33 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h1 class="mt-5">Welcome to the stock application!</h1>
-        <p class="lead">Complete with pre-defined file paths and responsive navigation!</p>
+        <h1 class="mt-5">Welcome to my stock app</h1>
+        <p class="lead">Choose a stock button on left to view information about that stock</p>
      <div class="row">
-      <div class="col-sm-1 col-md-1 col-lg-1" style="background-color:red;"></div>
-      <div class="col-sm-2 col-md-2 col-lg-2 stockList" style="background-color:yellow;">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-            <button type="button" class="btn btn-secondary">Secondary</button>
-          </div>
-          <div class="col-sm-8 col-md-8 col-lg-8 stockInfo" style="background-color:pink;">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-          </div>
-          <div class="col-sm-1 col-md-1 col-lg-1" style="background-color:red;"></div>   
+      <div class="col-sm-1 col-md-1 col-lg-1" style="background-color:white;"></div>
+      <div class="col-sm-2 col-md-2 col-lg-2 mt-1" style="background-color:white;">
         
-        <ul class="list-unstyled">
-          <li>Bootstrap 4.2.1</li>
-          <li><button type="button" class="btn btn-secondary">Secondary</button></li>
-        </ul>
+        <div class="stockForm p-2">
+              <input id="addStock" value="Add New Symbol">
+              <button id="add" class="display-none">Add</button>
+             
+           </div>
+           <div class="stockList"></div>
+            
+            
+          </div>
+          
+          <div class="col-sm-8 col-md-8 col-lg-8" style="background-color:white;">
+          
+           <div class="stockLogo mt-1 clearfix"></div>
+           
+           <div class="stockInfo"></div>
+
+         
+          </div>
+          <div class="col-sm-1 col-md-1 col-lg-1" style="background-color:white;"></div>   
+        
+        
       </div>
     </div>
   </div>
